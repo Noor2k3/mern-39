@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        img{
+            width:300px;
+            height: 300px;
+            border-radius: 300px;
+            
+
+        }
+        .profile{
+           
+             display:flex;
+            justify-content: center;
+           
+        }
+        .username .name{
+             font-size: 60px;
+             
+        }
+        .username{
+            color: rgb(151, 17, 17);
+        
+        }
+        .skills{
+            width: 200px;
+        }
+        .follow{
+            display: flex;
+            justify-content: center;
+        }
+        .contents{
+            padding: 100px;
+        }
+        .options{
+            width: 500px;
+            display: flex;
+            gap: 10px;
+        }
+        .options span{
+            border: 1px solid silver;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="aside">
+            <div class="profile">
+                <img src="C:\Users\Microsoft\Pictures\Saved Pictures\aqsa.jpg" alt="">
+            </div>
+            <div class="name">
+                Noor un Nisa
+            </div>
+         <div class="username">
+               Noor2k3
+            </div>
+            <div class="follow">
+                <button style="width: 200px; height: 30px;">follow</button>
+            </div>
+            <div class="skills">
+                Java | C | Python | HTML & CSS
+            </div>
+
+
+          </div>
+          <hr>
+
+            <div class="content">
+                <div class="options">
+                    <span>overview</span>
+            <span>repo</span>
+            <span>projects</span> 
+            <span>start</span>
+            <span>packages</span>  
+                </div>
+                <div class="message"> <h1> Hey there, It's me Noor un nisa </h1>
+                   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam numquam quaerat sequi vitae,
+                     vel provident libero obcaecati voluptates delectus expedita aliquam iste quod nam non eos eveniet quasi pariatur dolores.
+                    </p>
+                </div>
+            
+        </div>
+    </div>
+</body>
+</html>
